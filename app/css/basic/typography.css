@@ -1,0 +1,69 @@
+body {
+  font: $default_size_text 'Roboto';
+}
+a {
+  text-decoration: none;
+  color: color_grey-dark;
+}
+a:hover {
+  text-decoration: none;
+}
+a.help {
+  color: color_grey-dark;
+}
+p {
+  font-size: 18px;
+  color: color_grey;
+  line-height: 28px;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 500;
+}
+h1 {
+  font-size: 62px;
+  margin-bottom: 42px;
+}
+h2 {
+  font-size: 42px;
+  margin-bottom: 74px;
+}
+h3 {
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 46px;
+}
+h4 {
+  font-size: 26px;
+  margin-bottom: 47px;
+}
+hr {
+  width: 50px;
+  height: 2px;
+  margin: 40px auto;
+  background-color: color_blue;
+}
+.subtitle {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.fa {
+  font-size: 20px;
+}
+.gold-star {
+  color: color_yellow;
+}
+.users__name {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.footer__desc {
+  font-size: 14px;
+  line-height: 24px;
+}

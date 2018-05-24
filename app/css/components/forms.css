@@ -1,0 +1,20 @@
+.form {
+  position: relative;
+  width: 502px;
+  margin: 0 auto;
+  text-align: center;
+}
+.form__field {
+  width: 502px;
+  padding: 16px 174px 16px 26px;
+  border: 1px solid rgba(38,39,45,0.2);
+  font-size: 16px;
+  background-color: transparent;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+}
+.form__btn {
+  position: absolute;
+  top: 5px;
+  right: 6px;
+}

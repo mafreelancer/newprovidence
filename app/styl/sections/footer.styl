@@ -1,0 +1,45 @@
+.footer
+    padding 120px 0
+    &__content
+        row-flex()
+        &--copy
+            display none
+            margin: 40px 15px 20px
+            size(12)
+            col-offset()
+            transition opacity 2s ease-in-out
+            opacity 0
+            z-index -1
+            & .footer__links 
+                size(4)
+            &.active
+                display: flex
+                opacity 1
+                z-index 3
+                sm(display, none)
+
+    &__logo
+        margin-bottom 36px
+    &__links
+        col()
+        size(2)
+        size-md(6)
+        size-xs(12)
+        md(margin-top, 30px)
+        & li
+            margin 13px 0
+            &:first-child
+                margin-top 0
+    &__socials
+        margin-top 32px
+        & i
+            color color_grey
+            float left
+            margin-right 27px
+.information-app
+    col()
+    size(3)
+    shift-right(3)
+    size-md(12)
+    shift-md(0)
+    sm(margin-bottom, 40px)

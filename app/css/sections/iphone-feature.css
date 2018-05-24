@@ -1,0 +1,12 @@
+.iphone-feature {
+  position: relative;
+  padding: 240px 0 330px;
+}
+.iphone-feature__iphone {
+  position: absolute;
+  bottom: 110px;
+  right: 50%;
+}
+.iphone-feature__btns-group {
+  margin-top: 74px;
+}

@@ -1,0 +1,55 @@
+.iphone-screens
+    background color_grey_light_2
+    padding: 140px 0 800px
+    text-align: center
+    overflow: hidden
+    md(padding, 140px 0 600px)
+    md(padding, 140px 0 500px)
+.images-list
+    position relative
+    margin-top: 10px
+    flex(row)
+    align-items: center
+    &__item
+        position: absolute
+        &:nth-child(1), &:nth-child(2), &:nth-child(4), &:nth-child(5)
+            top: 92px
+            width 320px
+            md(margin-left, -880px)
+            sm(width, 178px)
+        &:nth-child(1)
+            left 50%
+            margin-left -880px
+        &:nth-child(2)
+            left 50%
+            margin-left -530px
+            md(width, 240px)
+            md(top, 68px)
+            md(margin-left, -410px)
+            sm(margin-left, -304px)
+        &:nth-child(3)
+            top: 0
+            left 50%
+            margin-left -193px;
+            md(width, 295px)
+            md(margin-left, -148px)
+            sm(width, 220px)
+            sm(margin-left, -110px)
+        &:nth-child(4)
+            right 50%
+            margin-right: -530px;
+            md(top, 68px)
+            md(width, 240px)
+            md(margin-right, -410px)
+            sm(margin-right, -304px)
+        &:nth-child(5)
+            right 50%
+            margin-right -880px
+        &:nth-child(1), &:nth-child(2), &:nth-child(4), &:nth-child(5)
+            sm(width, 178px)
+
+    &__img
+        box-shadow: 10px 10px 16px 0px rgba(61, 61, 62, 0.15)
+        &--main-img
+            box-shadow: none
+        

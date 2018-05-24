@@ -1,0 +1,13 @@
+.users {
+  padding: 120px 0;
+}
+.users__name {
+  margin-top: 68px;
+  color: color_grey-dark;
+}
+.rating {
+  margin-top: 17px;
+}
+.gold-star {
+  color: color_yellow;
+}

@@ -1,0 +1,16 @@
+.about {
+  position: relative;
+  background: url("../img/banner_background.jpg") no-repeat center/cover;
+  padding: 188px 0 510px;
+  text-align: center;
+  overflow: hidden;
+}
+.about__btn {
+  margin-top: 48px;
+}
+.about__iphone {
+  position: absolute;
+  bottom: -310px;
+  left: 50%;
+  margin-left: -185px;
+}

@@ -1,0 +1,73 @@
+.header
+    position fixed
+    left 0
+    right 0
+    top 0
+    padding 43px 0
+    z-index 1
+    transition all .6s ease
+    &--active
+        background #f7f4fe
+        padding 24px 0
+        box-shadow 0 1px 10px rgba(0, 0, 0, 0.15)
+    &--open-menu
+        background #f7f4fe
+        box-shadow 0 1px 10px rgba(0, 0, 0, 0.15)
+
+.nav
+    position relative
+    flex(row)
+    row-offsets()
+    sm(flex-direction, column)
+
+.menu, .logo--header
+    display flex
+    col()
+    flex-grow 1
+    align-items center
+.logo--header
+    justify-content center
+.menu
+    md(display, none)
+    &--left
+        position relative
+        left 50px
+        justify-content flex-start
+    &--right
+        justify-content flex-end
+        & > li:last-child
+            margin 0
+    &__list
+        display inline-block
+        margin-right 36px
+    &--mobile
+        display none
+        sm(display, none)
+        md(flex-direction, column)
+        margin-top: 30px
+        & .menu__list
+            margin: 0
+            padding: 15px 0
+            border-top: 1px solid color_grey
+            width 100%
+            text-align: center
+        &.open
+            sm(display, flex)
+.list-menu
+    &__href
+        position relative
+        transition all .7s ease-in-out
+        -webkit-transition all .7s ease-in-out
+        -moz-transition all .7s ease-in-out
+        -o-transition all .7s ease-in-out
+        &:after
+            content ''
+            width 0
+            position absolute
+            bottom 0
+            height 1px
+            background color_grey
+            left 0
+        &:hover:after, &:hover:focus
+            width 100%
+                
